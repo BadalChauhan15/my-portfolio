@@ -19,21 +19,24 @@ function Skills() {
   return (
     <section id="skills" style={{ marginLeft: '50px', marginRight: '50px', marginBottom: '50px', display: "flex", alignItems: "center", flexDirection: "column" }}>
       <h1 style={{ color: '#000000' }}>Skills</h1>
+      <marquee behavior="scroll" scrollamount="15">
       <div>
-        <img src={Skill_1} alt="Skill 1" style={{ marginLeft: '10px', marginRight: '10px', width: '80px', marginTop: '15px' }}/>
-        <img src={Skill_2} alt="Skill 2" style={{ marginRight: '18px', width: '80px', marginTop: '15px' }}/>
-        <img src={Skill_3} alt="Skill 3" style={{ marginRight: '20px', width: '60px', marginTop: '15px' }}/>
-        <img src={Skill_4} alt="Skill 4" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
-        <img src={Skill_5} alt="Skill 5" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
-        <img src={Skill_6} alt="Skill 6" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
-        <img src={Skill_7} alt="Skill 7" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
-        <img src={Skill_8} alt="Skill 8" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
-        <img src={Skill_9} alt="Skill 9" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
-        <img src={Skill_10} alt="Skill 10" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
-        <img src={Skill_11} alt="Skill 11" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
-        <img src={Skill_12} alt="Skill 12" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_1} alt="Skill 1" style={{ marginLeft: '10px', marginRight: '70px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_2} alt="Skill 2" style={{ marginRight: '78px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_3} alt="Skill 3" style={{ marginRight: '90px', width: '60px', marginTop: '15px' }}/>
+        <img src={Skill_4} alt="Skill 4" style={{ marginRight: '70px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_5} alt="Skill 5" style={{ marginRight: '70px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_6} alt="Skill 6" style={{ marginRight: '70px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_7} alt="Skill 7" style={{ marginRight: '70px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_8} alt="Skill 8" style={{ marginRight: '70px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_9} alt="Skill 9" style={{ marginRight: '70px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_10} alt="Skill 10" style={{ marginRight: '70px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_11} alt="Skill 11" style={{ marginRight: '70px', width: '80px', marginTop: '15px' }}/>
+        <img src={Skill_12} alt="Skill 12" style={{ marginRight: '70px', width: '80px', marginTop: '15px' }}/>
         <img src={Skill_13} alt="Skill 13" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
       </div>
+      </marquee>
+      
     </section>
     
   );
