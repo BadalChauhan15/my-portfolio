@@ -3,6 +3,27 @@
     margin: 0 auto;
 }
 
+.scrolling-text-container {
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  
+.scrolling-text {
+    width: max-content;
+    white-space: nowrap;
+    animation: scroll-left 13s linear infinite;
+}
+  
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 @media only screen and (max-width: 768px) {
     
     .skills {

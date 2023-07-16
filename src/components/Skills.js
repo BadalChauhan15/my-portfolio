@@ -20,8 +20,8 @@ function Skills() {
   return (
     <section id="skills" style={{ marginLeft: '50px', marginRight: '50px', marginBottom: '50px', display: "flex", alignItems: "center", flexDirection: "column" }}>
       <h1 style={{ color: '#000000' }}>Skills</h1>
-      <marquee className="skills" behavior="scroll" scrollamount="22">
-        <div>
+      <div className="skills scrolling-text-container">
+        <div className='scrolling-text'>
           <img src={Skill_1} alt="Skill 1" style={{ marginLeft: '10px', marginRight: '70px', width: '80px', marginTop: '15px' }}/>
           <img src={Skill_2} alt="Skill 2" style={{ marginRight: '78px', width: '80px', marginTop: '15px' }}/>
           <img src={Skill_3} alt="Skill 3" style={{ marginRight: '90px', width: '60px', marginTop: '15px' }}/>
@@ -36,7 +36,7 @@ function Skills() {
           <img src={Skill_12} alt="Skill 12" style={{ marginRight: '70px', width: '80px', marginTop: '15px' }}/>
           <img src={Skill_13} alt="Skill 13" style={{ marginRight: '10px', width: '80px', marginTop: '15px' }}/>
         </div>
-      </marquee>
+      </div>
       
     </section>
     
