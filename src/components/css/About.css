@@ -1,0 +1,33 @@
+.about {
+    width: 65%;
+    margin: 20px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.btn {
+    color: #ffffff;
+    align-self: flex-start; 
+    font-size: 14px; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    background-color: #27ae60; 
+    border: none; 
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #1a8c49;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .about {
+        width: 75%;
+    }
+}

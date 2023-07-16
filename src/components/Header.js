@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.png';
+import logo from './images/logo.png';
+import './css/Header.css';
 
 function Header() {
 
   return (
-    <header className="App-header" style={{ display: "flex", alignItems: "center" }}>
-      <img src={logo} className="App-logo" alt="WebForge logo" width="120px" style={{ marginLeft: "60px", marginRight: "auto"}}/>
+    <header className="app-header">
+      <img src={logo} className="app-logo" alt="WebForge logo"/>
     </header>
   );
 }

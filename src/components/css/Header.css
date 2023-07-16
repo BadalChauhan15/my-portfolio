@@ -1,0 +1,17 @@
+.app-header {
+    display: flex;
+    align-items: center;
+}
+
+.app-logo {
+    width: 100px;
+    margin-left: 75px;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .app-logo {
+        width: 150px;
+    }
+}

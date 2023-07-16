@@ -1,7 +1,7 @@
 import React from 'react';
-import Cert_1 from './cert1.jpg';
-import Cert_2 from './cert2.jpg';
-import Cert_3 from './cert3.jpg';
+import Cert_1 from './images/cert1.jpg';
+import Cert_2 from './images/cert2.jpg';
+import Cert_3 from './images/cert3.jpg';
 
 function Certificate() {
   return (

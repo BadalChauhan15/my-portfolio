@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1fa8a8e3.css",
+    "main.js": "/static/js/main.37c8ddce.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/project_3.png": "/static/media/project_3.956c202162c10b5b70b3.png",
+    "static/media/about_background.jpg": "/static/media/about_background.eeef7356a8421bc70894.jpg",
+    "static/media/cert3.jpg": "/static/media/cert3.a9472bf74ef8935ab35c.jpg",
+    "static/media/cert1.jpg": "/static/media/cert1.c9f6fef295f2ba5ccb4a.jpg",
+    "static/media/cert2.jpg": "/static/media/cert2.20fbfcea9424ce50f882.jpg",
+    "static/media/project1.jpg": "/static/media/project1.6aaed43b6a0f54625d9a.jpg",
+    "static/media/php-mysql.png": "/static/media/php-mysql.f952a0b35ab5a2fa3b83.png",
+    "static/media/project_2.png": "/static/media/project_2.aada1cbff0803f52859e.png",
+    "static/media/jquery.png": "/static/media/jquery.c2dda41ebf9ba81247e2.png",
+    "static/media/mongoDB.png": "/static/media/mongoDB.a659801b5076d78c4a69.png",
+    "static/media/angular.png": "/static/media/angular.1b49b1fb6d60f67d780c.png",
+    "static/media/python.png": "/static/media/python.7af95b01e526a3a0283b.png",
+    "static/media/java.png": "/static/media/java.b8c8f1050bd6e5250972.png",
+    "static/media/react.png": "/static/media/react.1d47f84c76cc47a44c26.png",
+    "static/media/nodejs.png": "/static/media/nodejs.d58e9da2850d3427a618.png",
+    "static/media/c.png": "/static/media/c.c1a439422de0d633bc1b.png",
+    "static/media/c++.png": "/static/media/c++.08162851d10e00c805c2.png",
+    "static/media/html-5.png": "/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
+    "static/media/css-3.png": "/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "index.html": "/index.html",
+    "main.1fa8a8e3.css.map": "/static/css/main.1fa8a8e3.css.map",
+    "main.37c8ddce.js.map": "/static/js/main.37c8ddce.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fa8a8e3.css",
+    "static/js/main.37c8ddce.js"
+  ]
+}
