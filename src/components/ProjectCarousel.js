@@ -11,30 +11,6 @@ function ProjectCarousel() {
       <h2>Personal Projects</h2>
 
       <div className="project-container">
-        <img src={Project_1} alt="Project 1" className="project-image" />
-        <div className="project-details">
-          <h3>Restaurant App</h3>
-          <p>
-            Restaurant App, developed using ReactJS, TailwindCSS, NodeJS, & Firebase.
-            This app is for individual business for selling Foods, Fruits and Beverages.
-          </p>
-          <a href="https://restaurantapp-6fa92.web.app" target="_blank" rel="noopener noreferrer" className='btn'>View Project</a>
-        </div>
-      </div>
-
-      <div className="project-container">
-        <img src={Project_2} alt="Project 1" className="project-image" />
-        <div className="project-details">
-          <h3>Company Card</h3>
-          <p>
-            Company Card Website, developed using ReactJS, TailwindCSS, & NodeJS.
-            This website is fetching an api having employees detail and displaying all the information of employees on the website in the form of cards.
-          </p>
-          <a href="https://github.com/BadalChauhan15/restaurantapp" target="_blank" rel="noopener noreferrer" className='btn'>View Project</a>
-        </div>
-      </div>
-
-      <div className="project-container">
         <img src={Project_3} alt="Project 1" className="project-image" />
         <div className="project-details">
           <h3>Portfolio Website</h3>
@@ -45,6 +21,19 @@ function ProjectCarousel() {
           <a href="https://myhtmlportfolio.netlify.app" target="_blank" rel="noopener noreferrer" className='btn'>View Project</a>
         </div>
       </div>
+      
+      <div className="project-container">
+        <img src={Project_2} alt="Project 1" className="project-image" />
+        <div className="project-details">
+          <h3>Company Card</h3>
+          <p>
+            Company Card Website, developed using ReactJS, Vanilla CSS, APIs & Axios.
+            This website is fetching an api having employees detail and displaying all the information of employees on the website in the form of cards.
+          </p>
+          <a href="https://companycard.netlify.app" target="_blank" rel="noopener noreferrer" className='btn'>View Project</a>
+        </div>
+      </div>
+
     </section>
   );
 }
